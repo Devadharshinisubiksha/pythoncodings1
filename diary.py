@@ -1,8 +1,8 @@
-ch1=int(input())
-cho11=[int(o) for o in input().split(" ")]
-che12=0
-for p1 in range(ch1):
-      for g1 in range(p1):
-           if(cho11[g1]<cho11[p1]):
-                che12+=cho11[g]
-print(che12)
+a1=int(input())
+a2=[int(j) for j in input().split(" ")]
+a3=0
+for b in range(a1):
+      for g in range(d):
+           if(a2[g]<a2[b]):
+                a3+=a2[f]
+print(a3)
