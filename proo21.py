@@ -1,0 +1,9 @@
+a16=int(input())
+b16=list(map(int,input().split()))[:a16]
+d16=int(a16/2)
+e16=sum(b16[:d16])//len(b16[:d16])
+f16=sum(b16[d16:])//len(b16[d16:])
+if(e16==f16):
+  print("yes")
+else:
+  print("no")
