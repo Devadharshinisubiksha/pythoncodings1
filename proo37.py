@@ -1,4 +1,4 @@
-nt26=int(input())
+nt266=int(input())
 lt26=list(map(int,input().split()))
 ct26=0
 it26=0
