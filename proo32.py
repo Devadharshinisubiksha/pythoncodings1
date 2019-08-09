@@ -1,11 +1,11 @@
-nnt26,mmt26=map(int,input().split())
-lt26=[]
-for _ in range(nnt26):
-	lt26.append(sorted(list(map(int,input().split()))))
-for i in range(nnt26-1):
-	for j in range(mmt26):
-		for k in range(nnt26-i):
-			if(lt26[i][j]>lt26[i+k][j]):
-				lt26[i][j],lt26[i+k][j]=lt26[i+k][j],lt26[i][j]
-for i in lt26:
-	print(*i,sep=' ')     
+b26,n26=map(int,input().split())
+amu26=[]
+for _ in range(b26):
+	amu26.append(sorted(list(map(int,input().split()))))
+for l in range(b26-1):
+	for m in range(n26):
+		for q in range(b26-l):
+			if(amu26[l][m]>amu26[l+q][m]):
+				amu26[l][m],amu26[l+q][m]=amu26[l+q][m],amu26[l][m]
+for l in amu26:
+	print(*l,sep=' ')  
